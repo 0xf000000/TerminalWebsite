@@ -53,8 +53,9 @@ font-size: 13px;
 
 #liner::before{
     font-size: 13px;
-    content:"Leonmecedes:~$";
+    content:"User@root~$";
     color:white;
+    font-style:normal;  
 } 
 
 @keyframes show{
@@ -70,6 +71,9 @@ font-size: 13px;
     width: 200px;
     height: 200px;    ;
 }
+
+
+
 
 
 
