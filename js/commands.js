@@ -1,4 +1,4 @@
-const Linux = [
+let Linux = [
     "<span> Hello Welcome to My Terminal Website :) feel free to explore it type 'help' to see the available commands</span>",
 "                                .:xxxxxxxx:.",
 "                             .xxxxxxxxxxxxxxxx.",
@@ -48,7 +48,7 @@ const Linux = [
 
 ]
 
-const help = [
+let help = [
 " <span> the folloing commands are possible to use :-) </span>",
 " 1. linux -> shows a beautiful penguin",
 " 2. whois -> Shows a quick summary of myself and my current stats :O",
@@ -63,14 +63,14 @@ const help = [
 
 
 
-const error = [
+let error = [
 "<span>Sorry but this command doesnt exist. type 'help' to get all the avaible commands :) </span>",
 "222"
 
 ]
 
 
-const smallLinux = [
+let smallLinux = [
 "                 .88888888:.",
 "                88888888.88888.",
 "              .8888888888888888.",
@@ -104,7 +104,10 @@ const smallLinux = [
 
 
 
-const contact = [
-    "Email -> ",
-    "tel"
+let contact = [
+    "Email -> ... in progress ",
+    "Tel.   ->  ",
+    ""
 ]
+
+

@@ -10,8 +10,6 @@ const terminal = $('terminal');
 
 setTimeout(() => {
   loopLines(Linux, "", 50);
-
-
 }, 100);
 
 
@@ -41,7 +39,7 @@ function displayText(key) {
       let value = texter.value.trim();
       if (value != 'clear') {
         console.log(value);
-        addLine(`Leonmecedes:~$ ${value}`, "")
+        addLine(`User@root~$ ${value}`, "")
       }
       executeCommand(value);
 
@@ -50,8 +48,6 @@ function displayText(key) {
       texter.value = '';
       //Do a command
       break;
-
-
 
     case ' ':
       output(' ');
@@ -69,7 +65,7 @@ function displayText(key) {
 let output = (out) => {
 
   typer.innerText += out;
-  //texter.value = ''
+
 }
 
 
@@ -88,7 +84,7 @@ let addLine = (text, style, time) => {
   setTimeout(() => {
     let next = document.createElement("p");
     next.innerHTML = t;
-    next.className = "style";
+    next.className = `${style}`;
 
     before.parentNode.insertBefore(next, before);
 
@@ -126,6 +122,7 @@ let executeCommand = (cmd) => {
         addLine("","",)
       break;
       case 'whois': 
+
 
       break;
 
