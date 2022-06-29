@@ -1,5 +1,5 @@
 let Linux = [
-    "<span> Hello Welcome to My Terminal Website :) feel free to explore it  </span>",
+    "<span> Hello Welcome to My Terminal Website :) feel free to explore it type 'help' to see the available commands</span>",
 "                                .:xxxxxxxx:.",
 "                             .xxxxxxxxxxxxxxxx.",
 "                            :xxxxxxxxxxxxxxxxxxx:.",
